@@ -1,0 +1,13 @@
+[workspace]
+[package]
+name = "magic_sq-script"
+version = "0.1.0"
+edition = "2021"
+default-run = "prove"
+
+[dependencies]
+sp1-sdk = "1.0.1"
+alloy-sol-types = "0.7.2"
+
+[build-dependencies]
+sp1-helper = "1.0.1"

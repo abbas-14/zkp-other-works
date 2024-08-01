@@ -1,0 +1,6 @@
+
+
+c = await Verifier.new()
+p = JSON.parse(fs.readFileSync('../proof.json'))
+await c.verifyTx({ a: p.proof.a, b: p.proof.b, c: p.proof.c}, p.inputs)
+

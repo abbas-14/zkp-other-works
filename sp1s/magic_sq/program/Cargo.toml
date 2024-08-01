@@ -1,0 +1,9 @@
+[workspace]
+[package]
+name = "magic_sq-program"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy-sol-types = "0.7.2"
+sp1-zkvm = "1.0.1"

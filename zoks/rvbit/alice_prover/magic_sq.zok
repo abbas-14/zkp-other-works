@@ -1,0 +1,16 @@
+
+def main(private field[9] sq, private field sum) {
+  // hz
+  assert(sq[0] + sq[1] + sq[2] == sum);
+  assert(sq[3] + sq[4] + sq[5] == sum);
+  assert(sq[6] + sq[7] + sq[8] == sum);
+  // vt
+  assert(sq[0] + sq[3] + sq[6] == sum);
+  assert(sq[1] + sq[4] + sq[7] == sum);
+  assert(sq[2] + sq[5] + sq[8] == sum);
+  // diag
+  assert(sq[0] + sq[4] + sq[8] == sum);
+  assert(sq[2] + sq[4] + sq[6] == sum);
+  
+  return;
+}
